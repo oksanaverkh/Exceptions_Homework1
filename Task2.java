@@ -19,10 +19,8 @@ public class Task2 {
         try {
             ageCheck(age);
         } catch (NumberFormatException e) {
-            System.out.println("Incorrect age! "+e.getMessage());
+            System.out.println("Incorrect age! " + e.getMessage());
         }
-
-        
     }
 
     public static void ageCheck(String age) throws NumberFormatException {
